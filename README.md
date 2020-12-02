@@ -15,7 +15,7 @@
 SSSHHHH. There are 2 impostors among us :)
 
 ## Screenshots
-![Example screenshot](png/impostor.jpg)
+![Example screenshot](file:///C:/Users/Samsung/Desktop/Impostor.JPG)
 
 ## Technologies
 * HTML
