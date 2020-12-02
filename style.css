@@ -1,0 +1,143 @@
+body {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+/* Impostor Red */
+
+.impostor-red {
+    position: relative;
+}
+.impostor-red .body {
+    position: relative;
+    display: flex;
+    height: 420px;
+    width: 300px;
+    border: 30px solid black;
+    border-radius: 25% 45% 0 0;
+    overflow: hidden;
+}
+
+.impostor-red .body .background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #7B0236;
+}
+
+.impostor-red .body .shadow {
+    position: absolute;
+    height: 88%;
+    width: 100%;
+    background: #c70a01;
+    border-radius: 14% 10% 30% 35% / 1% 10% 43% 92%  ;
+    
+}
+
+.impostor-red .glass {
+    position: absolute;
+    top: 90px;
+    right: -20px;
+    height: 120px;
+    width: 220px;
+    transform: rotate(-4deg);
+    border: 30px solid black;
+    border-radius: 15% 40% 40% 25% / 50%;
+    background: #4a6460;
+    overflow: hidden;
+}
+
+.impostor-red .glass .shadow {
+    position: absolute;
+    left: 10px;
+    width: 95%;
+    height: 70%;
+    background: #94c9db;
+    border-radius: 0% 10% 100% 100% / 0% 100% 50% 100% ;
+}
+
+.impostor-red .glass .point {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    background: #fff;
+    top: 10px;
+    right: 15px;
+    transform: rotate(5deg);
+    border-radius: 30% 70% 30% 30% / 30% 70% 30% 60%;
+}
+
+.impostor-red .legs {
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-30px);    
+    
+}
+
+.impostor-red .legs .left-leg {   
+    height: 130px;
+    width: 110px;
+    border-top: 0;
+    border-left: 30px solid black;
+    border-right: 30px solid black;
+    border-bottom: 30px solid black;
+    border-radius: 0 0 45% 45%;
+    background:  #7B0236;    
+}
+
+.impostor-red .legs .right-leg {
+    position: relative;    
+    height: 100px;
+    width: 90px;
+    border-left: 30px solid black;
+    border-right: 30px solid black;
+    border-bottom: 30px solid black;
+    border-radius: 0 0 45% 45%;
+    background:  #7B0236;    
+}
+
+.impostor-red .legs .right-leg:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -60%;
+    width: 100px;
+    height: 30px;
+    background: black;
+    border-radius: 0 0 100% 0;
+}
+
+.impostor-red .backpack {
+    position: absolute;
+    top: 130px;
+    left: -80px;
+    height: 250px;
+    width: 70px;
+    background: #c70a01;;
+    border: 30px solid black;
+    border-radius: 40% 0 0 40% / 15%;
+}
+
+.impostor-red .backpack .shadow {
+    position: absolute;
+    top: 25px;
+    left: 0px;
+    height: 90%;
+    width: 100%;
+    background: #7b0236;
+    border-radius: 40% 0 0 0 / 10% 0 0 0;
+
+}
+.impostor-red .floor-shadow {
+    position: absolute;
+    left: -70px;
+    bottom: 15px;
+    background: #525858;
+    height: 100px;
+    width: 500px;
+    border-radius: 50%;  
+}
+
+
+
