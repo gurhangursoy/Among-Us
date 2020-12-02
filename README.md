@@ -15,7 +15,7 @@
 SSSHHHH. There are 2 impostors among us :)
 
 ## Screenshots
-![Example screenshot](./png/Impostor.jpg)
+![Example screenshot](./png/Impostor.JPG)
 
 ## Technologies
 * HTML
