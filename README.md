@@ -15,7 +15,7 @@
 SSSHHHH. There are 2 impostors among us :)
 
 ## Screenshots
-![Example screenshot](/png/impostor.jpg)
+![Example screenshot](png/impostor.jpg)
 
 ## Technologies
 * HTML
@@ -25,7 +25,7 @@ SSSHHHH. There are 2 impostors among us :)
 Project is: _finished_
 
 ## Inspiration
-Add here credits. Project inspired by Jay from IEatWebsites.
+Project inspired by Jay from IEatWebsites.
 
 ## Contact
 Created by [@gurhangursoy](https://www.linkedin.com/in/gurhan-gursoy/) - feel free to contact me!
